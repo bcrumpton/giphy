@@ -1,7 +1,17 @@
 form {
+  padding: 1rem 0;
+  display: flex;
+}
+
+.field {
   display: flex;
   flex-direction: column;
-  padding: 1rem 0;
+  /* width: 100%; */
+  margin-left: 20px;
+}
+
+input[type="search"] {
+  max-width: 400px;
 }
 
 label {
@@ -17,12 +27,12 @@ img {
 }
 
 .App {
-  max-width: 60rem;
+  max-width: 65rem;
   margin: 0 auto;
 }
 
 .results {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   grid-gap: 0.5rem;
 }
