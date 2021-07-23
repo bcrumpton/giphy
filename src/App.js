@@ -28,7 +28,7 @@ function App() {
       <form method="GET">
         <label htmlFor="search">Giphy Search</label>
         <div className="field">
-          <input onChange={handleChange} type="search" name="search" id="search" placeholder="What would you like to search for?" />
+          <input onChange={handleChange} type="search" name="search" id="search" placeholder="Pizza..." />
         </div>
         <div className="field">
           <input type="submit" onClick={handleSubmit} value="Search" />
